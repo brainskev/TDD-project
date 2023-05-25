@@ -4,4 +4,8 @@ class Solver
 
     num.zero? ? 1 : (1..num).reduce(1, :*)
   end
+
+  def reverse(word)
+    word.reverse
+  end
 end
